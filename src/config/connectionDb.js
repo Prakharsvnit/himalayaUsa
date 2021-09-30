@@ -3,19 +3,19 @@
 const HOST = "localhost";
 
 //remote database name
-const DATABASE = "Cluster0";
+const DATABASE = "himalaya";
 
 //database credentials
-const USERNAME = "krishna";
-const PASSWORD = "Project23%!";
+const USERNAME = "himalaya";
+const PASSWORD = "himalaya";
 
 //default app port
-const PORT = 3333;
+const PORT = 3555;
 
 //default connection url
-const DEFAULT_CONNECTION_STRING = `mongodb+srv://${USERNAME}:${PASSWORD}@cluster0.koprp.mongodb.net/${DATABASE}?retryWrites=true&w=majority`;
-// mongodb+srv://krishna:<password>@cluster0.koprp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-//mongoose options for connection
+const DEFAULT_CONNECTION_STRING = `mongodb+srv://${USERNAME}:${PASSWORD}@cluster0.bhghk.mongodb.net/${DATABASE}?retryWrites=true&w=majority`;
+// const DEFAULT_CONNECTION_STRING =  mongodb+srv://himalaya:<password>@cluster0.bhghk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+// //mongoose options for connection
 const MONGOOSE_OPTIONS = {
     useCreateIndex: true,
     useFindAndModify: false,
